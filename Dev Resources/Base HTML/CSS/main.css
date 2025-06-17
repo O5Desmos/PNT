@@ -1,0 +1,29 @@
+@font-face {
+    font-family: robotoFlex;
+    src: url(fonts/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
+}
+@font-face {
+    font-family: courierPrime;
+    src: url(fonts/CourierPrime-Regular.ttf);
+}
+@font-face {
+    font-family: courierPrime;
+    src: url(fonts/CourierPrime-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: courierPrime;
+    src: url(fonts/CourierPrime-BoldItalic.ttf);
+    font-weight: bold;
+    font-style:italic;
+}
+@font-face {
+    font-family: courierPrime;
+    src: url(fonts/CourierPrime-Italic.ttf);
+    font-style:italic;
+}
+html {
+    background-color: rgb(16, 11, 31);
+    color:azure;
+    font-family: courierPrime, monospace;
+}
