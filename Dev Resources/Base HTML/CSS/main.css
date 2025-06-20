@@ -22,8 +22,37 @@
     src: url(fonts/CourierPrime-Italic.ttf);
     font-style:italic;
 }
+* {
+    box-sizing: border-box
+} 
 html {
-    background-color: rgb(16, 11, 31);
-    color:azure;
+    background-color: #2C2C2C;
+    color:#F7F9FF;
     font-family: courierPrime, monospace;
+}
+.head-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A489D;
+}
+.head-element {
+    float: left;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+    float:right;
+}
+.head-title {
+    float:left;
+}
+.head-option {
+    display:block;
+    height: 100%;
+}
+h1, h2 {
+    font-family: robotoFlex, monospace;
 }
